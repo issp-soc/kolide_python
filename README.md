@@ -1,4 +1,4 @@
-# Kolide Fleet API example
+# Kolide Fleet API example by [ISSP SOC](https://www.issp.com/)
 Basic example of communication with [Kolide Fleet](https://github.com/kolide/fleet) via API with Python 3
 
 Installation Guide:
