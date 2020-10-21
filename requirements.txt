@@ -1,0 +1,6 @@
+pip
+setuptools
+requests
+websocket
+websocket-client
+urllib3
