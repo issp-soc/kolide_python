@@ -9,7 +9,6 @@ config = {
     "host": "",
     "username": "",
     "password": "",
-    "domain": ""
 }
 
 
@@ -40,7 +39,7 @@ class Kolide:
         :return: host id or error message"""
         for i in range(len(response.get('hosts', []))):
             hostname = str(response['hosts'][i].get('hostname', '')).lower()
-            if host != hostname and '%s.%s' % (host, self.__cfg['domain']) != hostname:
+            if host != hostname:
                 continue
             if response['hosts'][i].get('status', '') == 'offline':
                 return '%s is offline' % host
