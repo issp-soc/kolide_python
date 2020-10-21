@@ -50,7 +50,7 @@ class Kolide:
     def __get_host_id(self, host):
         """Retrieve host id from Kolide Fleet
 
-        :param host: host name or IP address
+        :param host: host name
         :return: host id or error message"""
         try:
             session = requests.session()
